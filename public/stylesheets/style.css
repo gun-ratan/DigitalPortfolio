@@ -16,6 +16,10 @@ body {
   color: var(--text-color-dark);
 }
 
+a{
+  text-decoration: none;
+}
+
 /* Fixed Header */
 header {
   background-color: var(--primary-color);
@@ -245,6 +249,9 @@ section h1:hover, section h2:hover {
   background-color: var(--hover-color);
 }
 
+.nounderline a{
+  text-decoration: none;
+}
 
 /* Contact Section */
 #contact-info {
@@ -267,13 +274,13 @@ section h1:hover, section h2:hover {
 }
 
 #contact-info a {
-  color: var(--primary-color); /* Light Baby Blue for links */
+  color: rgba(49, 49, 253, 0.607); /* Light Baby Blue for links */
   text-decoration: none; /* Remove underline */
   font-weight: bold;
 }
 
 #contact-info a:hover {
-  color: var(--hover-color); /* Hover effect */
+  color: rgba(0, 0, 255, 0.811); /* Hover effect */
   text-decoration: underline; /* Add underline on hover */
 }
 
